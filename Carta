@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Carta de Viagem</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color: #1844b5;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 60px auto;
+            background-color: #f4f4f4;
+            padding: 60px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .assunto {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;text-decoration: underline;
+            margin-bottom: 30px;
+        }
+
+        .data {
+            margin-bottom: 20px;
+            color: #444;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.9;
+            text-align: justify;
+            color: #1f2a37;
+            margin-bottom: 20px;
+        }
+
+        .assinatura {
+            margin-top: 50px;
+        }
+
+        .nome {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="assunto">
+            Assunto: Viagem a São Paulo
+        </div>
+
+        <div class="data">
+            Itajaí, 13 de março de 2026
+        </div>
+
+        <p>Olá time, tudo bem?</p>
+
+        <p>
+        Gostaria de compartilhar com vocês o quanto gostei de viajar para a cidade de São Paulo.
+        Foi uma experiência incrível, cheia de momentos especiais e descobertas.
+        </p>
+
+        <p>
+        Durante a viagem, tive a oportunidade de conhecer diversos lugares interessantes,
+        experimentar comidas diferentes e aproveitar bastante o tempo livre.
+        </p>
+
+        <p>
+        Com certeza foi uma viagem que vai ficar na memória, e espero poder repetir em breve.
+        </p>
+
+        <div class="assinatura">
+            <p>Abraços, </p>
+
+            <div class="nome">Bruno</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
